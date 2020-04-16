@@ -7,7 +7,7 @@
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
-    "react-multicolor-circular-progress-bar": "latest"
+    "react-multicolor-circular-progress-bar": "^1.0.0"
   },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",

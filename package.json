@@ -35,7 +35,7 @@
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.0.0",
-    "react-multicolor-circular-progress-bar": "latest"
+    "react-multicolor-circular-progress-bar": "^1.0.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.8",
@@ -56,7 +56,7 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-multicolor-circular-progress-bar": "latest",
+    "react-multicolor-circular-progress-bar": "^1.0.0",
     "prop-types": "^15.7.2",
     "react-scripts": "^3.4.1",
     "enzyme": "^3.11.0",
