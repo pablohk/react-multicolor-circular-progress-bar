@@ -1,0 +1,183 @@
+/* Demo Component Style */
+
+*{
+  margin:0;
+  padding:0;
+}
+
+input{
+  border: none;
+  width: 100%;
+  font-size:12px;
+  background-color: transparent;
+}
+
+input[type=color]{
+  background-color: transparent;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+} 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 1px;
+  height: 3.4px;
+  cursor: pointer;
+  background: rgb(243, 6, 6); 
+  border-radius: 1.3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  height: 10px;
+  width: 5px;
+  margin-top:-3px;
+  background: rgb(50, 63, 131); 
+  cursor: pointer;
+  -webkit-appearance: none;
+  border-radius: 2px;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.flex-nowrap{
+  flex-wrap: nowrap !important;
+}
+
+.flex-align-center{
+  align-items: center;
+}
+
+.flex-justify-around{
+  justify-content: space-around;
+}
+
+.flex-justify-center{
+  justify-content: center;
+}
+.element{
+    padding: 0 3px;
+    margin: 3px 0;
+}
+
+.center{
+  margin: 0 auto !important;
+}
+/* ------------------------------------------------- */
+
+.buttons-container > *{
+  padding: 0 3px;
+  margin: 3px;
+}
+
+.container {
+  width:100%;
+}
+
+.cursor{
+  cursor:pointer;
+}
+
+.hidden{
+  display: none !important;
+}
+
+.input-array-angle {
+  margin: 3px 0;
+}
+
+.input-element-grow{
+  flex-grow: 1;
+}
+
+.input-element-left{
+  flex: 0 0 80px;
+}
+
+.input-element-left-extra{
+  flex: 0 0 100px;
+}
+
+.input-element-right{
+  flex: 0 0 25px;
+  text-align: end;
+}
+
+.input-element-color{
+  height: 18px;
+  width: 40px;
+}
+
+.linea {
+  background: radial-gradient(circle, rgba(204,204,204,1) 20%, rgba(255,255,255,1) 80%);
+  width: 100%;
+  height: 2px;
+  margin:10px 0px;
+}
+
+.main-content {
+  width: 95%;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+.main-content >*{
+  padding: 10px
+}
+
+.range-input{
+  display:block;
+  -webkit-appearance: none; 
+  outline:none;
+  padding-left: 5px;
+}
+
+.title-check{
+  position:absolute;
+  top: 1px;
+  right: 1px;
+  width: 13px;
+}
+
+.tuning{
+  font-size: 12px;
+}
+
+.tuning-element{
+  position:relative;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 3px;
+  width: 230px;
+  background-color: #d5f1dc40;
+}
+
+.tuning-element > p{
+  text-align: center;
+  border-bottom: 1px solid gray;
+  background-color: #afecbf;
+}
+
+.warning{
+  padding:5px;
+  text-align: center;
+  color:#ff0000;
+}
