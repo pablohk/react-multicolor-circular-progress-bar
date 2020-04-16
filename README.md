@@ -121,4 +121,4 @@ export default Example;
 
 ## License
 
-MIT © [Pablo Carmona &lt;pablusmid@gmail.com&gt;](https://github.com/pablohk &lt;pablusmid@gmail.com&gt;)
+MIT © [Pablo Carmona &lt;pablusmid@gmail.com&gt;](https://github.com/pablohk)
