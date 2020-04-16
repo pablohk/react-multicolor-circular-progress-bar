@@ -2,7 +2,7 @@
   "name": "react-multicolor-circular-progress-bar-example",
   "homepage": "https://Pablo Carmona &lt;pablusmid@gmail.com&gt;.github.io/react-multicolor-circular-progress-bar",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
